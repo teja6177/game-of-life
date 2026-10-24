@@ -1,6 +1,6 @@
 node('node1') {
 	stage('SourceCode') {
-		git branch: 'sprint_devlop', url: 'ttps://github.com/teja6177/game-of-life.git'
+		git branch: 'sprint_devlop', url: 'https://github.com/teja6177/game-of-life.git'
 	}
 	
 	stage('Build The Code') {
